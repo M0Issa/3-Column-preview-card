@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    border-radius: 10px;
+}
+.container {
+    display: grid;
+    grid-template-columns:repeat(3, auto);
+    font-size: 11px; 
+    text-align: center;
+    width: 635px;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+:root {
+--Bright-orange: hsl(31, 77%, 52%);
+--Dark-cyan: hsl(184, 100%, 22%);
+--Very-dark-cyan: hsl(179, 100%, 13%);
+--Transparent-white : hsl(0, 0%, 100%, 0.75);
+}
+ img {
+    width: 45px;
+    height: 25px;
+    padding-top: 35px;
+}
+.imge {
+    margin-left: -110px;
+}
+.sedans {
+    color: var(--Transparent-white);
+    background-color: var(--Bright-orange);
+    color: white;
+    width: calc(640px/3);
+    height: 318px;
+}
+.suvs {
+    color: var(--Transparent-white);
+    background-color: var(--Dark-cyan);
+    color: white;
+    width: calc(640px/3);
+    height: 318px;
+}
+.luxury {
+    color: var(--Transparent-white);
+    background-color: var(--Very-dark-cyan);
+    color: white;
+    width: calc(640px/3);
+    height: 318px;
+}
+.bu {
+    border-radius: 20px;
+    height: 35px;
+    width: 100px;
+    border-color: white;
+    color: var(--Transparent-white);
+    font-size:10px;
+    margin-left: -50px;
+    border-color: var(--Transparent-white);
+}
+.luxury button {
+    background-color: var(--Very-dark-cyan);
+    font-weight: 500;
+}
+.suvs button {
+    background-color: var(--Dark-cyan);
+    font-weight: 500;
+ 
+}
+.sedans button {
+    background-color: var(--Bright-orange);
+    font-weight: 500;
+}
+h2 {
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 20px;   
+}
+.sedans h2 {
+    margin-left: -80px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+}
+.suvs h2 {
+    margin-left: -107px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+}
+.luxury h2 {
+    margin-left: -85px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+}
+p {
+    color: var(--Transparent-white);
+    margin-left: 30px;
+    text-align: left;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    width: 147px;
+    font-family: 'Rubik', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+button:hover {
+    cursor:pointer;   
+}
+@media (min-width: 1000px) and (max-width: 1440px) 
+ {.container 
+    {
+        width: 150px;
+     }
+    }
+@media (max-width: 375px) 
+ {.container 
+    {
+        display: block;
+    
+     }
+  .sedans button {
+        background-color: white;
+        color: var(--Bright-orange);
+     }
+     .suvs button {
+        background-color: white;
+        color: var(--Dark-cyan);
+     }
+     .luxury button {
+        background-color: white;
+        color: var(--Very-dark-cyan);
+     }
+    }
+    
