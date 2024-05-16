@@ -5,9 +5,10 @@
 .container {
     display: grid;
     grid-template-columns:repeat(3, auto);
-    font-size: 11px; 
+    font-size: 15px; 
     text-align: center;
-    width: 635px;
+    width: 900px;
+    height: 500px;
     margin-left: 30px;
     border-radius: 10px;
     margin-left: 60px;
@@ -26,79 +27,87 @@
     padding-top: 35px;
 }
 .imge {
-    margin-left: -110px;
+    display: block;
+    margin-left: 45px;
 }
 .sedans {
     color: var(--Transparent-white);
     background-color: var(--Bright-orange);
     color: white;
-    width: calc(640px/3);
-    height: 318px;
+    width: calc((900px/3));
+    height: 500px;
 }
 .suvs {
     color: var(--Transparent-white);
     background-color: var(--Dark-cyan);
     color: white;
-    width: calc(640px/3);
-    height: 318px;
+    width: calc((900px/3));
+    height: 500px;
 }
 .luxury {
     color: var(--Transparent-white);
     background-color: var(--Very-dark-cyan);
     color: white;
-    width: calc(640px/3);
-    height: 318px;
+    width: calc((900px/3));
+    height: 500px;
 }
 .bu {
-    border-radius: 20px;
-    height: 35px;
-    width: 100px;
+    border-radius: 25px;
+    height: 45px;
+    width: 155px;
     border-color: white;
     color: var(--Transparent-white);
-    font-size:10px;
-    margin-left: -50px;
+    font-size: 15px;
+    margin-left: -35px;
     border-color: var(--Transparent-white);
+    margin-top: 75px;
 }
+
 .luxury button {
-    background-color: var(--Very-dark-cyan);
+    background-color: white;
+        color: var(--Very-dark-cyan);
     font-weight: 500;
 }
 .suvs button {
-    background-color: var(--Dark-cyan);
+    background-color: white;
+    color: var(--Dark-cyan);
     font-weight: 500;
  
 }
 .sedans button {
-    background-color: var(--Bright-orange);
+    background-color: white;
+        color: var(--Bright-orange);
     font-weight: 500;
 }
 h2 {
     text-transform: uppercase;
-    margin-top: 30px;
+    margin-top: 35px;
     margin-bottom: 20px;   
+    
 }
 .sedans h2 {
-    margin-left: -80px;
+    margin-left: -110px;
     font-family: 'Big Shoulders Display';
     font-weight: 700;
 }
 .suvs h2 {
-    margin-left: -107px;
+    margin-left: -150px;
     font-family: 'Big Shoulders Display';
     font-weight: 700;
 }
 .luxury h2 {
-    margin-left: -85px;
+    margin-left: -110px;
     font-family: 'Big Shoulders Display';
     font-weight: 700;
 }
 p {
     color: var(--Transparent-white);
-    margin-left: 30px;
+    margin-left: 45px;
     text-align: left;
     line-height: 1.6;
     margin-bottom: 40px;
-    width: 147px;
+    margin-top: 40px;
+    width: 200px;
     font-family: 'Rubik', sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
